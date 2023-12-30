@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+    </style>
+    <style>
+        body {
+            background-image: url('zp.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <nav class="fade-in">
+        <ul>
+            <li><a href="index.html">主页</a></li>
+            <li><a href="菱形.html">菱形</a></li>
+            <li><a href="学校主页.html">学校主页</a></li>
+            <li><a href="综合使用作业.html">综合使用作业</a></li>
+            <li><a href="表单.html">表单</a></li>
+        </ul>
+    </nav>
+    <main>
+        <header class="fade-in">
+            <h1>个人简历</h1>
+            <img src="tp.jpg" alt="头像">
+        </header>
+        <div >
+            <h1> 尹宸吾</h1>
+            <hr>
+            <ul>
+                <li>
+                    <b>性别：</b>男
+                </li>
+                <li>
+                    <b>电话：</b>12345678911</a>
+                </li>
+                <li>
+                    <b>邮箱：</b>123@456.com
+                </li>
+                <li>
+                    <b>生日：</b>2004.06.10
+                </li>
+                <li>
+                    <b>兴趣：</b>...
+                </li>
+            </ul>
+            <hr>
+            <h2>教育背景Education</h2>
+            <table style="width:100%" border=1 cellspacing=0>
+                <tr>
+                    <td>时间</td>
+                    <td>学校</td>
+                    <td>职务</td>
+                </tr>
+                <tr>
+                    <td>111</td>`1
+                    <td>111</td>
+                    <td>111</td>
+                </tr>
+                <tr>
+                    <td>555</td>
+                    <td>555</td>
+                    <td>555</td>
+                </tr>
+            </table>
+            <h2>工作经验...</h2>
+            <ol>
+                <li>无</li>
+                <li>无</li>
+                <li>无</li>
+                <li>无</li>
+            </ol>
+            <h2>自我介绍</h2>
+            <p>1<br>2</p>
+        </div>
+    </main>
+        <div id="content">
+          <section class="fade-in">
+            <h2 style="color: rgb(23, 23, 22); font-size: 24px; text-align: center;">个人自序</h2>
+            <p style="color: rgb(255, 0, 0); font-size: 24px; text-align: center;">406道德天花板。</p>
+          </section>
+          <section class="fade-in">
+            <h2 style="color: rgb(19, 18, 18); font-size: 24px; text-align: center;">个人爱好</h2>
+            <p style="color: rgb(255, 0, 0); font-size: 24px; text-align: center;">原神，圆梦之星。</p>
+          </section>
+          <section class="fade-in">
+            <h2 style="color: rgb(15, 15, 15); font-size: 24px; text-align: center;">个人成绩</h2>
+            <p style="color: rgb(255, 0, 0); font-size: 24px; text-align: center;">六级证书、准C1驾照。</p>
+          </section>
+        </div>
+    <button onclick="toggleContent()">隐藏/详细信息</button>
+
+    <script>
+        function toggleContent() {
+            var content = document.getElementById("content");
+            if (content.style.display === "none") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+    <footer class="fade-in">
+        <p>版权所有 &copy; 22089007个人简历</p>
+    </footer>
+        </div>
+</body>
+</html>
